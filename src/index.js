@@ -1,12 +1,12 @@
 import {createP, createTop} from "./components"
 import { multipleOf } from "./utils"
 
-import ".styles/texts.sass"
+import "./styles/texts.sass"
 
 createTop()
 
 let lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem harum ut sed accusamus quae magni molestias at modi, praesentium voluptate provident est perspiciatis enim distinctio soluta aliquid omnis quasi numquam?"
-let words = lorem.split("")
+let words = lorem.split(" ")
 
 
 words.forEach((word, index) => {
